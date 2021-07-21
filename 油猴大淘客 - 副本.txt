@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name       ¡¾8Ôª°üÓÊÉÌÆ·¿â¡¿¡¾ÌÔ±¦¡¿¡¾ÌìÃ¨¡¿ÄÚ²¿ÓÅ»ÝÈ¯ Ò»¼üÃâ·ÑÁìÈ¡ ¹ºÎïÇ°ÁìÒ»ÏÂ Ö±½ÓÊ¡Ç®30%ÒÔÉÏ 2020.12.17¸üÐÂ
+// @name       ã€æ·˜ç‰¹ã€‘ã€æ·˜å®ã€‘ã€å¤©çŒ«ã€‘å†…éƒ¨ä¼˜æƒ åˆ¸ ä¸€é”®å…è´¹é¢†å– è´­ç‰©å‰é¢†ä¸€ä¸‹ ç›´æŽ¥çœé’±30%ä»¥ä¸Š
 // @namespace    https://www.jbsou.cn/
 // @version      8.1
-// @description  Ò»¸ö°´Å¥²éÕÒÌÔ±¦ÌìÃ¨ºÍ¾©¶« ÄÚ²¿ÓÅ»ÝÈ¯£¬Ò»¼üÃâ·ÑÁìÈ¡¡£Ö±½ÓÁìÈ¡ÓÅ»ÝÈ¯¹ºÂò¡£ÓÅ»Ý30%ÒÔÉÏ£¡
+// @description  ä¸€ä¸ªæŒ‰é’®æŸ¥æ‰¾æ·˜å®å¤©çŒ«å’Œäº¬ä¸œ å†…éƒ¨ä¼˜æƒ åˆ¸ï¼Œä¸€é”®å…è´¹é¢†å–ã€‚ç›´æŽ¥é¢†å–ä¼˜æƒ åˆ¸è´­ä¹°ã€‚
 // @author       Timi
 // @include      http*://item.taobao.com/*
 // @include      http*://detail.tmall.com/*
@@ -19,8 +19,8 @@
         var productNm = '';
         var url = "http://euuem.yhzu.cn/index.php?input=2&r=l&kw=";
          var urll = "http://euuem.yhzu.cn/";
-        var label = "»ñÈ¡ÓÅ»ÝÈ¯";
-        var labell = "8Ôª°üÓÊÇø";
+        var label = "èŽ·å–ä¼˜æƒ åˆ¸";
+        var labell = "æŸ¥çœ‹æ›´å¤šã€å¤§é¢åˆ¸ã€‘";
         var cssSelector = '';
         if (host.indexOf('taobao.com') > 0) {
             productNm = $.trim($('.tb-main-title').text());
